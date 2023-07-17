@@ -150,6 +150,38 @@ ubuntu@ip-172-31-90-203:~/test_dir$ whoami
 ubuntu
 ```
 
+## History: Let's dig into your past commands.
+
+While operating in linux you can always go to your previously executed commands by pressing the up arrow key , but you can do much more with the history command.
+
+The Linux history command is a useful tool for displaying previously executed commands in the terminal. It helps users to keep track of their actions, find specific commands they have used in the past, and even reuse or modify them as needed.
+
+```bash
+  ubuntu@ip-172-31-90-203:~$
+  230  clear
+  231  ./get-logs.bash
+  232  ls
+  233  cat output_tmp
+  234  clear
+  235  vi get-logs.bash
+  236  ./get-logs.bash
+  237  ls /tmp
+  238  clear
+  239  ls
+  240  cat awesome-file.txt
+ubuntu@ip-172-31-90-203:~$ !233
+cat output_tmp
+Jul 16 14:40:14 ip-172-31-90-203 systemd[1]: Condition check resulted in 
+Process error reports when automatic reporting is enabled (file watch) being 
+skipped. Jul 16 14:40:14 ip-172-31-90-203 systemd[1]: Condition check resulted 
+in Process error reports when automatic reporting is enabled (timer based) 
+being skipped. Jul 16 14:40:14 ip-172-31-90-203 kernel: [ 3.809682]
+```
+
+You can also execute commands from your history too! Isn't that just incredible?! No more typing those super long commands! All you have to do is grab the command number from your history, slap an exclamation mark in front of it, hit enter, and BAM! Your command is executed just like that! 🎉.
+
+By default, the history function retains commands in the system's RAM until the user logs out of the terminal. Upon logging out, these commands are saved to the disk in the ~/.bash\_history file. The history buffer accommodates up to 1,000 command entries, while the history file has a capacity for 2,000 entries.
+
 ## Exploring the Linux manual 🕵️‍♂️
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689521254751/05e66e06-357e-4710-96c0-dd336d484d1c.png align="center")
