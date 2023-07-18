@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Linux Shell Scripting: Getting Started with the Basics"
+title: "Introduction to Linux Shell Scripting: Getting Started with the Basics 🔥"
 seoTitle: "Linux Shell Scripting Basics: Intro Guide"
 seoDescription: "Learn Linux shell scripting basics: commands, variables, conditionals for efficient system administration in this introductory guide"
 datePublished: Tue Jul 18 2023 18:27:37 GMT+0000 (Coordinated Universal Time)
@@ -11,11 +11,11 @@ tags: linux, devops, linux-for-beginners, 90daysofdevops, trainwithshubham
 
 ---
 
-## Introduction
+## **📍**Introduction:
 
 Hello readers! In today's blog about the Linux shell, we will be exploring the basics of shell scripting, its importance in Linux administration, and how to get started with various shell commands and scripting techniques. Sounds awesome, right? Let's dive in!
 
-## What is a Linux shell?
+## 🔸What is a Linux shell?
 
 Whenever a user logs in to the system or opens a console window, the kernel runs a new shell instance. It is responsible for the control management, and execution of processes, and ensuring proper utilization of system resources.
 
@@ -36,7 +36,7 @@ Let’s understand the major shells that are available for the Linux environment
 4. **The Z Shell (ssh):** The Z Shell or zsh is a sh shell extension with tons of improvements for customization. If you want a modern shell that has all the features a much more, the Zsh shell is what you’re looking for.
     
 
-## Shell Scripting
+## **✔** Shell Scripting:
 
 ![Should you learn Linux shell commands as a web developer in 2023? - DEV  Community](https://res.cloudinary.com/practicaldev/image/fetch/s--kcdpxq9a--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7fvwgm9uml3vthyp61kq.png align="left")
 
@@ -46,7 +46,7 @@ Like other programs, the shell script can contain parameters, comments, and subc
 
 After writing a shell script, we also need to grant the script execute permissions so that it can be executed in the command line.
 
-### How to write a shell script?
+### 🔸 How to write a shell script?
 
 A shell script must always start with **the shebang** `#/bin/sh` or `#!/bin/bash`. This is very important as it tells the kernel which interpreter is to be used to run the commands present in the file.
 
@@ -67,7 +67,7 @@ DevOps   ec2key.pem   hello.bash   test_file   testscript   WebDev
 End of my shell script
 ```
 
-### Adding comments in a shell script
+### 🔸 Adding comments in a shell script:
 
 To add a comment in shell script we just use the pound or hash symbol before the specific line and that will be ignored by the interpreter.
 
@@ -80,7 +80,7 @@ output:
 Testing comments in shell script
 ```
 
-### Executing a shell script
+### 🔸 Executing a shell script:
 
 By default, a newly created script does not have execute permissions, so attempting to execute it will result in an error. To execute a shell script, we first need to modify its permissions using the `chmod` command.
 
@@ -94,7 +94,7 @@ ubuntu@ip-172-168-29-30:~$ ./test_script.sh
 Testing comments in shell script
 ```
 
-## Using variables in a shell script
+### 🔸 Using variables in a shell script:
 
 Variables in shell scripts are important for storing and manipulating data. They offer a method to assign values to a named symbol and reference that value throughout the script. By utilizing variables, we can create more dynamic and adaptable scripts. They enable us to store user input, intermediate results, or system-generated values.
 
@@ -108,9 +108,9 @@ output:
 yash
 ```
 
-On executing the above script it will print "yash" on screen
+On executing the above script it will print "yash" on the screen
 
-## Command substitution
+## **✔** Command substitution:
 
 Command substitution is a way for programmers to use the result of a command in place of the command itself in shell scripts. The shell runs the command and replaces the substitution with the command's output. The output of a UNIX command is packaged and then used as a command.
 
@@ -140,7 +140,7 @@ output:
 scripts folder has 5 files
 ```
 
-## Conditional statements
+## **✔** Conditional statements:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689704643039/173af616-5e18-498f-98c1-358936d702d7.png align="center")
 
@@ -211,7 +211,7 @@ else
 fi
 ```
 
-## Conclusion
+## **📍** Conclusion:
 
 In conclusion, Linux shell scripting is a powerful tool for automating tasks and managing system resources. By understanding the basics of shell commands, scripting techniques, and control structures, you can harness the full potential of Linux administration and simplify your daily tasks.
 
