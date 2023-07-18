@@ -15,7 +15,7 @@ tags: linux, devops, linux-for-beginners, 90daysofdevops, trainwithshubham
 
 Hello readers! In today's blog about the Linux shell, we will be exploring the basics of shell scripting, its importance in Linux administration, and how to get started with various shell commands and scripting techniques. Sounds awesome, right? Let's dive in!
 
-## 🔸What is a Linux shell?
+## **✔**What is a Linux shell?
 
 Whenever a user logs in to the system or opens a console window, the kernel runs a new shell instance. It is responsible for the control management, and execution of processes, and ensuring proper utilization of system resources.
 
