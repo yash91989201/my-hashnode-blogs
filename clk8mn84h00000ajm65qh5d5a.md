@@ -17,8 +17,6 @@ Hello readers! In today's blog about the Linux shell, we will be exploring the b
 
 ## **✔**What is a Linux shell?
 
-Whenever a user logs in to the system or opens a console window, the kernel runs a new shell instance. It is responsible for the control management, and execution of processes, and ensuring proper utilization of system resources.
-
 A shell is a program that serves as an interface between a user and the kernel. It enables a user to issue commands to the kernel and receive responses from it. Through a shell, we can execute programs and utilities on the kernel. Therefore, at its core, a shell is a program designed to execute other programs on our system.
 
 Being able to interact with the kernel makes shells a powerful tool. Without the ability to interact with the kernel, a user cannot access the utilities offered by their machine’s operating system.
@@ -40,11 +38,9 @@ Let’s understand the major shells that are available for the Linux environment
 
 ![Should you learn Linux shell commands as a web developer in 2023? - DEV  Community](https://res.cloudinary.com/practicaldev/image/fetch/s--kcdpxq9a--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7fvwgm9uml3vthyp61kq.png align="left")
 
-A shell script is a text file that contains a sequence of commands that are typed in the terminal and is mostly used to automate those tasks that are needed to be performed repeatedly. A shell script is a text file that puts together many Linux commands.
+A shell script is a text file that contains a sequence of Linux commands and is mostly used to automate those tasks that are needed to be performed repeatedly. Just like other programs, the shell script can contain parameters, comments, and subcommands that the shell must follow.
 
-Like other programs, the shell script can contain parameters, comments, and subcommands that the shell must follow. Users initiate the sequence of commands in the shell script by simply entering the file name on a command line.
-
-After writing a shell script, we also need to grant the script execute permissions so that it can be executed in the command line.
+After writing a shell script we need to grant execute permissions to the script `chmod u+x script_file`. Awesome! Now you can easily run the series of commands in your shell script by just typing the file name in the command line `./script_file` .
 
 ### 🔸 How to write a shell script?
 
@@ -75,16 +71,11 @@ To add a comment in shell script we just use the pound or hash symbol before the
 #!/bin/bash
 # This is a comment
 echo Testing comments in shell script
-
-output:
-Testing comments in shell script
 ```
 
 ### 🔸 Executing a shell script:
 
-By default, a newly created script does not have execute permissions, so attempting to execute it will result in an error. To execute a shell script, we first need to modify its permissions using the `chmod` command.
-
-After modifying the permissions the script is ready to be executed.
+By default, a newly created script does not have execute permissions, so attempting to execute it will result in an error. To execute a shell script, we first need to modify its permissions using the `chmod` command. After modifying the permissions the script is ready to be executed.
 
 ```bash
 ubuntu@ip-172-168-29-30:~$ chmod u+x test_script.sh
@@ -107,8 +98,6 @@ echo $NAME
 output:
 yash
 ```
-
-On executing the above script it will print "yash" on the screen
 
 ## **✔** Command substitution:
 
