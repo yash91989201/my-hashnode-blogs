@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Linux Shell Scripting: Getting Started with the Basics 🔥"
+title: "👨‍🏫 Introduction to Linux Shell Scripting: Getting Started with the Basics 🔥"
 seoTitle: "Linux Shell Scripting Basics: Intro Guide"
 seoDescription: "Learn Linux shell scripting basics: commands, variables, conditionals for efficient system administration in this introductory guide"
 datePublished: Tue Jul 18 2023 18:27:37 GMT+0000 (Coordinated Universal Time)
