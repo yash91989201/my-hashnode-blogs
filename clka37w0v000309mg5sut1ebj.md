@@ -1,5 +1,5 @@
 ---
-title: "Advanced shell scripting: Elevate your Linux skills (Part - 1)"
+title: "🔥Advanced shell scripting: Elevate your Linux skills📈 (Part - 1)"
 seoTitle: "Advanced Shell Scripting: Enhance Linux (Pt.1)"
 seoDescription: "Master Linux shell scripting, case statements, loops, seq, cron jobs, I/O redirection, pipe operator; enhance efficiency, automate tasks"
 datePublished: Wed Jul 19 2023 18:59:21 GMT+0000 (Coordinated Universal Time)
