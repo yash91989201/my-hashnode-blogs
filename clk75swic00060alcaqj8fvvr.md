@@ -1,5 +1,5 @@
 ---
-title: "Linux File Permissions Explained: A Straightforward Method for File Handling 📁"
+title: "📁 Linux File Permissions Explained: A Straightforward Method for File Handling"
 seoDescription: "Master Linux file permissions for security; learn read, write, execute with chmod in symbolic, octal modes"
 datePublished: Mon Jul 17 2023 17:48:22 GMT+0000 (Coordinated Universal Time)
 cuid: clk75swic00060alcaqj8fvvr
