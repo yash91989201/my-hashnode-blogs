@@ -1,5 +1,5 @@
 ---
-title: "Rocking the Linux OS World: The Ultimate Guide to Fundamentals and Commands"
+title: "🤘 Rocking the Linux OS World: The Ultimate Guide to Fundamentals and Commands 🔥"
 seoTitle: "Rocking the Linux OS World: The Ultimate Guide to Fundamentals"
 seoDescription: "Master Linux OS with this comprehensive guide on fundamentals, commands, architecture, and unlock its versatile, open-source potential"
 datePublished: Sun Jul 16 2023 15:46:41 GMT+0000 (Coordinated Universal Time)
@@ -27,13 +27,13 @@ Think of the Linux kernel as the heart of the system, responsible for managing h
 
 ![Basic Linux Tutorial for Begineers in details | What is linux and  Architecture of linux](https://generalnote.com/images/Linux-Tutorial/Architecture-of-Linux.jpg align="center")
 
-The Linux operating system architecture consists of four key components: hardware, kernel, shell, application and utilities.
+The Linux operating system architecture consists of four key components: **hardware, kernel, shell, application and utilities.**
 
 1. **Kernel:** The kernel is like the brain of an operating system. It plays a crucial role in controlling everything that happens in the Linux OS. It has different parts that work together with the hardware of the computer.
     
 2. **System libraries:** these are special types of functions that are used to implement the functionality of the operating system.
     
-3. **Shell:** It is an interface to the kernel which hides the complexity of the kernel’s functions from the users. It takes commands from the user and executes the kernel’s functions. We can interact with the shell with the help of a terminal, a terminal is a wrapper program that runs a shell and allows us to enter commands.
+3. **Shell:** It is an interface to the kernel which takes commands from the user and executes the kernel’s functions. We can interact with the shell with the help of a terminal, a terminal is a wrapper program that runs a shell and allows us to enter commands.
     
 4. **Hardware Layer:** This layer consists of all physical devices like RAM, HDD, CPU etc.
     
