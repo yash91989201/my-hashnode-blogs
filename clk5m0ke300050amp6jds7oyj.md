@@ -11,11 +11,11 @@ tags: linux, devops, 90daysofdevops, trainwithshubham, tws
 
 ---
 
-## Introduction 🐧
+## 🐧 Introduction
 
 Welcome to the thrilling world of Linux OS! In this ultimate guide, we'll explore the basics of this user-friendly, open-source operating system. Prepare to embark on a journey that will turn you from a Linux beginner to a confident user, unlocking the true potential of this versatile platform. Let's dive in!
 
-## Linux: A Kernel or an Operating System? 🤓
+## 🤓 Is Linux a kernel or an operating system?
 
 ![Guy Confused Meme Generator - Piñata Farms - The best meme generator and  meme maker for video & image memes](https://a.pinatafarm.com/2000x1124/b177c50844/guy-confused.jpg align="left")
 
@@ -23,7 +23,7 @@ Starting my Linux journey, I was unsure if it was a kernel or a complete OS. Aft
 
 Think of the Linux kernel as the heart of the system, responsible for managing hardware resources, coordinating tasks, and providing essential services. It acts as a bridge between the hardware and the software layers.
 
-## Exploring the Building Blocks of Linux Architecture
+## 🏛️ Understanding the Linux architecture
 
 ![Basic Linux Tutorial for Begineers in details | What is linux and  Architecture of linux](https://generalnote.com/images/Linux-Tutorial/Architecture-of-Linux.jpg align="center")
 
@@ -46,17 +46,15 @@ To list all the contents of a directory we use the command "ls" which is short f
 
 When we enter the "ls" command in the terminal, the shell interprets the command and passes it to the kernel. The kernel then interacts with the hardware, such as the hard drive, to access the file system and retrieve the directory contents. Finally, the kernel sends the information back to the shell, which displays the directory contents to the user.
 
-## Unlocking the Matrix: Mastering Linux Commands for Ultimate Control 🔓
+## 🔓 Unlocking the Matrix: Mastering Linux Commands for Ultimate Control
 
 ![Fast-typing GIFs - Get the best GIF on GIPHY](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm10eWV4eHdvcGtlZ3YwcWIzYmk3ZXN6MnZuN2VjZjJpbGExajNqZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XIqCQx02E1U9W/giphy.gif align="center")
 
 Linux commands are text-based instructions entered in the terminal, allowing users to interact with the operating system and perform various tasks. These commands range from simple ones, like creating, moving, and deleting files and directories, to more advanced ones, such as managing system processes, monitoring system resources, and configuring network settings.
 
-*Along with a command, we can also specify some options also known as flags or switches which are additional parameters that modify the behavior of a command to perform specific tasks or provide more detailed information.* These options usually start with a hyphen (-) or two hyphens (--) and can be combined with the command to customize its function.
+*We can also specify some options also known as flags or switches which are additional parameters that modify the behavior of a command to perform specific tasks or provide more detailed information.* These options usually start with a hyphen (-) or two hyphens (--) and can be combined with the command to fine-tune its functions or output according to the user.
 
 For example, the "ls" command, which lists the contents of a directory, can be used with the "-l" option to display a detailed, long-format listing, or the "-a" option to show hidden files. While it is possible to combine flags like "ls -al" or "ls -ltrh" some commands require you to specify flags separately.
-
-Mastering Linux commands is crucial for efficient system navigation and administration, as well as for automating tasks through shell scripts. Some popular Linux commands include ls, cd, mkdir, rm, and grep, each serving a specific purpose and enhancing the user's experience by making it more streamlined and productive.
 
 Let us explore some basic Linux commands that will prove helpful when traversing the file system:
 
@@ -150,11 +148,11 @@ ubuntu@ip-172-31-90-203:~/test_dir$ whoami
 ubuntu
 ```
 
-## History: Let's dig into your past commands.
+## 📜 history command
 
-While operating in linux you can always go to your previously executed commands by pressing the up arrow key , but you can do much more with the history command.
+While operating in Linux you can access your previously executed commands by pressing the up arrow key, but you can do much more with the history command.
 
-The Linux history command is a useful tool for displaying previously executed commands in the terminal. It helps users to keep track of their actions, find specific commands they have used in the past, and even reuse or modify them as needed.
+You can also execute commands from your history too! Isn't that just incredible?! All you have to do is grab the command number from your history, slap an exclamation mark in front of it, hit enter, and BAM! Your command is executed just like that! 🎉.
 
 ```bash
   ubuntu@ip-172-31-90-203:~$
@@ -173,16 +171,12 @@ ubuntu@ip-172-31-90-203:~$ !233
 cat output_tmp
 Jul 16 14:40:14 ip-172-31-90-203 systemd[1]: Condition check resulted in 
 Process error reports when automatic reporting is enabled (file watch) being 
-skipped. Jul 16 14:40:14 ip-172-31-90-203 systemd[1]: Condition check resulted 
-in Process error reports when automatic reporting is enabled (timer based) 
-being skipped. Jul 16 14:40:14 ip-172-31-90-203 kernel: [ 3.809682]
+skipped. Jul 16 14:40:14 ip-172-31-90-203 systemd[1]: Condition check resulted
 ```
 
-You can also execute commands from your history too! Isn't that just incredible?! No more typing those super long commands! All you have to do is grab the command number from your history, slap an exclamation mark in front of it, hit enter, and BAM! Your command is executed just like that! 🎉.
+The history feature stores commands in RAM until the user logs out, after which they are saved to ~/.bash\_history. The buffer can hold 1,000 commands, while the file can store up to 2,000 entries.
 
-By default, the history function retains commands in the system's RAM until the user logs out of the terminal. Upon logging out, these commands are saved to the disk in the ~/.bash\_history file. The history buffer accommodates up to 1,000 command entries, while the history file has a capacity for 2,000 entries.
-
-## Exploring the Linux manual 🕵️‍♂️
+## 🕵️‍♂️ Exploring the Linux manual
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689521254751/05e66e06-357e-4710-96c0-dd336d484d1c.png align="center")
 
@@ -196,7 +190,7 @@ ubuntu@ip-172-31-90-203:~$ man ls
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689519906197/e5ca86d5-bc92-4c3f-bd82-1f228917a3fa.png align="center")
 
-## Journey's End: Becoming a Linux Rockstar
+## 🛤️ Journey's End: Becoming a Linux Rockstar
 
 In conclusion, the Linux OS offers a powerful, flexible, and versatile platform for users seeking to gain more control over their systems. By understanding its fundamentals, and architecture, and mastering its commands, you can unlock the true potential of this open-source operating system.
 
