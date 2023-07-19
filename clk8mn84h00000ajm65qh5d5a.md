@@ -129,9 +129,6 @@ output:
 The file is owned by ubuntu
 ```
 
-1. **Using backticks \`\` :**
-    
-
 ```bash
 file_count=`ls -l | grep '^-' |wc -l`
 echo "$(pwd | awk -F/ '{$print $NF}') folder has $(file_count) files"
