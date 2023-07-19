@@ -186,7 +186,7 @@ Let's create a fun example to make a backup of the /var and /etc file systems if
 ```bash
 #!/bin/bash
 cd /tmp
-backup_file=`ls -ltr | grep '$*.tar.gz' | wc -l`
+backup_file=`ls -ltr | grep -c '$*.tar.gz'`
 backup_date=`date +"%d_%m_%y"`
 if [ $backup_file -eq 0 ]
 then
