@@ -10,11 +10,11 @@ tags: devops, linux-for-beginners, file-permission, 90daysofdevops, trainwithshu
 
 ---
 
-## Introduction
+## **📍** Introduction:
 
 Welcome, dear readers! Are you ready to embark on an exciting journey to discover the world of Linux file permissions? By understanding and mastering this powerful concept, you'll unlock a new level of security and control over your files and directories. So, let's dive in and explore the fascinating world of Linux file permissions together!
 
-## What are file permissions? 🔒
+## 🔒 What are file permissions?
 
 File permissions in Linux are an incredible concept! Thanks to these amazing file permissions, Linux has become one of the most secure operating systems out there!
 
@@ -53,6 +53,8 @@ The **first set** of permissions applies to the owner of the file. The **second 
 3. **Execute (x):** In Unix type system, you can't run or execute a program unless execute permission is set. But in Windows, there is no such permission available.
     
 
+The first character is used to represent if it's a file or directory, to represent a file **\-** is used and for directory **d** is used.
+
 These file permissions can also be represented in numbers and are called numeric mode. In numeric mode, a three-digit value represents specific file permissions (for example, 754.) These are called octal values. The first digit is for owner permissions, the second digit is for group permissions, and the third is for other users. Each permission has a numeric value assigned to it:
 
 * read (r): 4
@@ -66,7 +68,7 @@ These file permissions can also be represented in numbers and are called numeric
 
 Above is a file with read, write, and execute permissions for the user who created it; read and execute permissions for the group the user belongs to; and read-only permission for others.
 
-## Changing permission for a file: using the chmod command
+## 🖥️ Using the chmod command:
 
 The chmod command is used to change the access mode of a file. The name is an abbreviation of "change mode," which indicates that every file and directory has a set of permissions controlling who can read, write, or execute the file.
 
@@ -103,7 +105,7 @@ chmod u+rw config.yml
 chmod 600 config.yml
 ```
 
-## Conclusion
+## **📍** Conclusion:
 
 In conclusion, Linux file permissions are vital for guaranteeing the security and integrity of your precious files and directories! By mastering and managing these permissions with super cool commands like chmod, you'll be completely in charge of who can peek, tweak, and run your files, boosting the safety of your entire system to new heights!
 
