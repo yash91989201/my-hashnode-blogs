@@ -46,9 +46,9 @@ After writing a shell script we need to grant execute permissions to the script 
 
 A shell script must always start with **the shebang** `#/bin/sh` or `#!/bin/bash`. This is very important as it tells the kernel which interpreter is to be used to run the commands present in the file.
 
-You can include Linux commands like ls, pwd, whoami, hostname in a shell script
+You can include Linux commands like ls, pwd, whoami, hostname in a shell script.
 
-Here's an example of a shell script
+Here's an example of a shell script:
 
 ```bash
 #!/bin/bash
@@ -118,7 +118,7 @@ output:
 The file is owned by ubuntu
 ```
 
-1. **Using backticks \`\`:** When using the backtick method, nesting backticks within themselves is not possible without creating a mess
+1. **Using backticks \`\`:** When using the backtick method, nesting backticks within themselves is not possible without creating a mess.
     
 
 ```bash
@@ -135,7 +135,7 @@ scripts folder has 5 files
 
 As the name implies, conditional statements allow the execution of different sets of instructions depending on the evaluation of particular conditions. These conditions are typically expressed as logical expressions, which can be true or false. When a specific condition is met, the corresponding block of code is executed. This allows for the implementation of decision-making processes and the handling of various scenarios within the code.
 
-There are 5 types of conditional statements
+There are 5 types of conditional statements:
 
 1. if statement
     
