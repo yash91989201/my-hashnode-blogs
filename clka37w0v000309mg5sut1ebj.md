@@ -25,9 +25,9 @@ To follow along with this blog, you need to have a basic understanding of shell 
 
 A case statement in Bash scripts is used when a decision must be made among multiple choices. In other words, it is helpful when an expression can have various values. This approach can be seen as a substitute for multiple if-statements in a script.
 
-Case statements have an advantage over if statements because they enhance the readability of our code and are easier to maintain.A case statement begins with the `case` keyword which is followed by an expression and the in the keyword and ends with the `esac` keyword
+Case statements have an advantage over if statements because they enhance the readability of our code and are easier to maintain. A case statement begins with the `case` keyword which is followed by an expression and the in the keyword and ends with the `esac` keyword
 
-Let's explore case statements together by checking out a fun example:
+Let's explore case statements together by checking out a fun example, where we write a shell script that allows a user to input a file name and perform some actions on it :
 
 ```bash
 #!/bin/bash
@@ -102,7 +102,7 @@ There are 3 types of looping statements:
 
 The Bash sequence expression generates a range of integers or characters by defining the start and the end point of the range. It is generally used in combination with "for" loops. Following is the syntax of sequence expression `{START..END[..INCREMENT]}`
 
-Here's an example to help you grasp the concept better:
+Here are various examples to help you better understand the concept:
 
 ```bash
 # print number from 1 till 3 
@@ -134,7 +134,7 @@ output:
 
 `seq` command in Linux is used to generate numbers from FIRST to LAST in steps of INCREMENT. It is a very useful command where we had to generate a list of numbers in while, for, and until loop. Here's the syntax for `seq` command `seq [option] FIRST INCREMENT LAST`
 
-Let's check out an example to better understand how this works:
+Let's examine some examples to gain a better understanding of how this functions:
 
 ```bash
 seq 10 # prints from 1 to 10
@@ -171,11 +171,11 @@ A crontab file has 5 fields:
 
 ![How to Use the Cron Job Format to Schedule Task in Linux](https://linuxiac.b-cdn.net/wp-content/uploads/2020/10/cron-job-format.png align="left")
 
-<table><tbody><tr><td colspan="1" rowspan="1" colwidth="200"><p><strong>Field</strong></p></td><td colspan="1" rowspan="1"><p><strong>Possible values</strong></p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Minute</p></td><td colspan="1" rowspan="1"><p>0-59</p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Hour</p></td><td colspan="1" rowspan="1"><p>0-23</p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Day of month</p></td><td colspan="1" rowspan="1"><p>1-31</p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Month</p></td><td colspan="1" rowspan="1"><p>1-12</p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Day of week</p></td><td colspan="1" rowspan="1"><p>0-6. 0 depicts Sunday. In some systems, a value of 7 represents Sunday instead</p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Command</p></td><td colspan="1" rowspan="1"><p>Command to execute</p></td></tr></tbody></table>
+<table><tbody><tr><td colspan="1" rowspan="1" colwidth="200"><p><strong>Field</strong></p></td><td colspan="1" rowspan="1"><p><strong>Possible values</strong></p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Minute</p></td><td colspan="1" rowspan="1"><p>0-59</p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Hour</p></td><td colspan="1" rowspan="1"><p>0-23</p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Day of month</p></td><td colspan="1" rowspan="1"><p>1-31</p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Month</p></td><td colspan="1" rowspan="1"><p>1-12</p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Day of week</p></td><td colspan="1" rowspan="1"><p>0-6. 0 depicts Sunday. In some systems, a value of 7 represents Sunday instead.</p></td></tr><tr><td colspan="1" rowspan="1" colwidth="200"><p>Command</p></td><td colspan="1" rowspan="1"><p>Command to execute.</p></td></tr></tbody></table>
 
 In addition to the possible values for crontab fields, it is important to remember some special characters:
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Symbol</strong></p></td><td colspan="1" rowspan="1"><p><strong>Meaning</strong></p></td><td colspan="1" rowspan="1"><p><strong>Example</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>* (asterisk)</p></td><td colspan="1" rowspan="1"><p>Select all possible values in a field</p></td><td colspan="1" rowspan="1"><p>Place * in the <strong>hour</strong> field to run the task every hour</p></td></tr><tr><td colspan="1" rowspan="1"><p>, (comma)</p></td><td colspan="1" rowspan="1"><p>A comma is used to separate multiple values</p></td><td colspan="1" rowspan="1"><p>0,3,5 in the <strong>day of week</strong> field will make the task run on Sunday and Wednesday</p></td></tr><tr><td colspan="1" rowspan="1"><p>– (hyphen)</p></td><td colspan="1" rowspan="1"><p>Used to set a range of values</p></td><td colspan="1" rowspan="1"><p>10-15 in the <strong>day of month</strong> field will run the task from the 10th to the 15th day of the month</p></td></tr><tr><td colspan="1" rowspan="1"><p>/ (separator)</p></td><td colspan="1" rowspan="1"><p>A separator is used to divide values</p></td><td colspan="1" rowspan="1"><p>*/10 in the <strong>hour</strong> field will make the task run every 10 hours</p></td></tr></tbody></table>
+<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Symbol</strong></p></td><td colspan="1" rowspan="1"><p><strong>Meaning</strong></p></td><td colspan="1" rowspan="1"><p><strong>Example</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>* (asterisk)</p></td><td colspan="1" rowspan="1"><p>Select all possible values in a field</p></td><td colspan="1" rowspan="1"><p>Place * in the <strong>hour</strong> field to run the task every hour.</p></td></tr><tr><td colspan="1" rowspan="1"><p>, (comma)</p></td><td colspan="1" rowspan="1"><p>A comma is used to separate multiple values</p></td><td colspan="1" rowspan="1"><p>0,3,5 in the <strong>day of week</strong> field will make the task run on Sunday and Wednesday.</p></td></tr><tr><td colspan="1" rowspan="1"><p>– (hyphen)</p></td><td colspan="1" rowspan="1"><p>Used to set a range of values</p></td><td colspan="1" rowspan="1"><p>10-15 in the <strong>day of month</strong> field will run the task from the 10th to the 15th day of the month.</p></td></tr><tr><td colspan="1" rowspan="1"><p>/ (separator)</p></td><td colspan="1" rowspan="1"><p>A separator is used to divide values</p></td><td colspan="1" rowspan="1"><p>*/10 in the <strong>hour</strong> field will make the task run every 10 hours.</p></td></tr></tbody></table>
 
 Hey there! I know it might seem a bit puzzling at first, so let's go through an example together to make it clearer:
 
@@ -206,8 +206,10 @@ The shell has three standard streams in I/O redirection:
     
 
 ```bash
-# sends standard output to file 
+# sends standard output to file and rewrites it 
 echo "hello world" > hello.txt
+# sends standard output to file and and appends the text in file
+echo "hello world" >> hello.txt
 # sends error output to file 
 ls non_existent_file > no_file_error.txt
 # send error output to standard output 
@@ -222,7 +224,7 @@ When `>` is used with a file it rewrites the file with new content, but when `>>
 
 In Linux, the pipe operator enables two or more commands to be combined or executed simultaneously. This means the output of one command is used as input for the next one, and so on. The name "pipe" is quite fitting, as it refers to the concept of a process flow being channeled through a pipe from a source to a destination.
 
-To use the concept of pipeline we use the pipe operator which is `|`
+Here are various examples to help you better understand the concept:
 
 ```bash
 # feed the input of grep command with the output of cat command 
