@@ -1,5 +1,5 @@
 ---
-title: "🛣️A guide to managing services and packages in Linux. 🚀"
+title: "🛣️A guide to managing services and packages in Linux. ⚙️📦 🧰"
 seoDescription: "Master Linux services/packages management with our guide, covering key concepts, best practices, and tools for an optimized experience"
 datePublished: Fri Jul 21 2023 18:48:46 GMT+0000 (Coordinated Universal Time)
 cuid: clkcxpzp1000709l8ftcwg8vl
