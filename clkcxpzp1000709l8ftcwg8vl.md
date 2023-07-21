@@ -14,7 +14,7 @@ tags: linux, devops, linux-for-beginners, 90daysofdevops, trainwithshubham
 
 Welcome to our guide on managing Linux services and packages! In this blog, we will cover essential concepts, best practices, and tools to simplify the process. Regardless of your experience level, we will help you enhance your Linux experience. Let's unleash the true potential of your Linux environment.🚀
 
-## Understanding Processes, Daemons, and Services:
+## ✔ Understanding Processes, Daemons, and Services 🛠️ :
 
 1. **processes:** A process is a program in execution. For example, when we write a program in C or C++ and compile it, the compiler creates binary code. The original code and binary code are both considered programs. When we run the binary code, it becomes a process.
     
@@ -27,7 +27,7 @@ Welcome to our guide on managing Linux services and packages! In this blog, we w
     Services can be started, stopped, and managed independently of user sessions. Examples of services include web servers (like Apache), database servers (like MySQL), and file-sharing applications (like Samba).
     
 
-### systemd (one daemon to rule them all 🧙‍♂️):
+### 🔸 systemd (one daemon to rule them all 🧙‍♂️):
 
 Systemd is the master daemon in Linux, serving as the initial daemon responsible for starting all other processes. It functions as both a service manager and an initialization system within the Linux operating system.
 
@@ -37,7 +37,7 @@ As systemd is the first process to start in Linux, it has a process ID of 1, and
 
 Systemd is a Linux initialization system that is started directly by the kernel. All other processes are either initiated directly by systemd or by one of its child processes. When systemd interacts with a daemon, it refers to them as units.
 
-## Managing services with systemctl command :
+## ✔ Managing services with systemctl command ⚙️:
 
 While systemd functions as a service manager and initialization system, systemctl is a command-line tool that enables the management and monitoring of the systemd system and service manager. systemctl stands for system control.
 
@@ -61,7 +61,7 @@ Here's how we can use the systemctl command to manage services:
 3. **masking a service:** When a service is masked, it becomes "impossible" to load the service, even if another enabled service requires it. If you want to ensure a service never starts again, mask it by executing the command `systemctl mask service_name`.
     
 
-## Linux Packages
+## ✔ Linux Packages 📦
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689963895146/db25e30b-3de9-4447-b9bb-770d3ad433e7.png align="center")
 
@@ -69,14 +69,14 @@ Here's how we can use the systemctl command to manage services:
 
 **Repositories** hold packages specifically designed, compiled, and maintained for each Linux version and distribution. These repositories house thousands of packages produced by the distribution vendors. Occasionally, projects may manage their packaging and distribution.
 
-### Package management tools:
+### 🔸 Package management tools🧰 :
 
 1. **Advanced Package Tool (APT):** APT (Advanced Package Tool) is a powerful package management system used primarily in Debian-based Linux distributions, such as Debian itself, Ubuntu, Linux Mint, and many others. It simplifies the process of installing, updating, and removing software packages on your system, making it a crucial tool for both regular users and system administrators.
     
 2. **Yellodog Updater Modified (YUM):** Yum (Yellowdog Updater Modified) is a package management tool used primarily in Red Hat-based Linux distributions, including CentOS, Fedora, and RHEL (Red Hat Enterprise Linux). Yum also simplifies the process of installing, updating, and removing software packages on your system.
     
 
-### Package management using APT:
+### 🔸 Package management using APT 📦🧰:
 
 ![APT Package Manager on Linux Explained – devconnected](https://devconnected.com/wp-content/uploads/2019/11/featured-9.png align="left")
 
@@ -99,7 +99,7 @@ Here's how we can use the systemctl command to manage services:
 4. **Upgrading the packages:** Once you have updated the package database, you can now upgrade the installed packages. The most convenient way is to upgrade all the packages that have available updates. To upgrade the packages we can use the following command **sudo apt upgrade**
     
 
-### Difference between upgrade and update:
+### 🔸 Difference between upgrade🔼 and update 🔄:
 
 ![Difference between Update and Upgrade - GeeksforGeeks](https://media.geeksforgeeks.org/wp-content/uploads/20220131115605/updatevsupgrade.png align="left")
 
@@ -110,3 +110,7 @@ On the other hand, the apt upgrade command downloads and installs available upda
 If you don't use the update command, you won't refresh the cache, which would not provide you with information about the available package updates.
 
 ## **📍** Conclusion:
+
+In conclusion, managing services and packages in Linux is an essential skill for both regular users and system administrators. Understanding processes, daemons, and services, along with the use of systemd and systemctl, enables efficient control and management of background tasks.
+
+Additionally, mastering package management tools like APT and YUM simplifies the process of installing, updating, and removing software, ensuring an optimized Linux experience.
