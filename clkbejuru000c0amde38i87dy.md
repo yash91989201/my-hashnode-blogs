@@ -17,7 +17,7 @@ Hey there, readers! In this blog post, we're going to explore Access Control Lis
 
 ## ✔ How does file ownership work in Linux?
 
-Hey there! If you're curious about how file permissions work in Linux, I've got you covered. Just check out my previous blog post, where I explained the basics of file permissions in a simple and easy-to-understand way. **Check out the blog here:** 👉 [https://yashraj-jaiswal.hashnode.dev/linux-file-permissions-explained-a-straightforward-method-for-file-handling](https://yashraj-jaiswal.hashnode.dev/linux-file-permissions-explained-a-straightforward-method-for-file-handling)
+If you're curious about how file permissions work in Linux, I've got you covered. Just check out my previous blog post, where I explained the basics of file permissions in a simple and easy-to-understand way. **Check out the blog here:** 👉 [https://yashraj-jaiswal.hashnode.dev/linux-file-permissions-explained-a-straightforward-method-for-file-handling](https://yashraj-jaiswal.hashnode.dev/linux-file-permissions-explained-a-straightforward-method-for-file-handling)
 
 ### 🔸 Traditional Linux permissions model
 
@@ -38,7 +38,7 @@ Let's examine how ACLs can assist us in addressing the situation described in th
 With ACLs, Alice can grant particular permissions to Bob and Carol without impacting the access of other users or groups.
 
 ```bash
-setfacl 
+setfacl
 ```
 
 ## ✔ Using ACLs in Linux
