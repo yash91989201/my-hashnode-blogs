@@ -11,13 +11,13 @@ tags: git, devops, learning-journey, 90daysofdevops, trainwithshubham
 
 ---
 
-![Centralized vs Distributed Version Control System](https://www.htown-tech.com/uploads/6/9/4/9/69493533/centralized-vs-distributed-version-control-system-1_orig.jpg align="left")
-
 ## **📍** Introduction:
 
 Hello everyone! In today's blog, we'll explore Git, a popular DevOps tool, and GitHub, a service that utilizes Git. These tools are essential for DevOps engineers as they streamline collaboration and version control in software development.
 
 ## ✔ Version Control System ⚙️:
+
+![Centralized vs Distributed Version Control System](https://www.htown-tech.com/uploads/6/9/4/9/69493533/centralized-vs-distributed-version-control-system-1_orig.jpg align="left")
 
 A version control system is used to track all the changes in the code base and keep all the history in one place, such as when a file was created and which lines of the file were changed, when, and by whom. All these changes made to a file or folder are stored as a version in this system and become very helpful when we want to restore the file to its previous version.
 
