@@ -50,7 +50,7 @@ It is very easy to create a new repository on GitHub,
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690130456992/a75814a1-59e3-4c3f-9c6c-4b7a17cae9d1.png align="center")
     
 
-## ✔ Difference between local and remote repository.
+## ✔ Difference between local repository and remote repository.
 
 The local repository is a Git folder on your computer. The remote repository is a Git folder on another computer.
 
@@ -66,7 +66,7 @@ To create a new local repository and connect it to the remote repository that we
     
 3. `git status`: With the help of this command, we can view newly added files in the local repository and any modified files. In the example below, we can see that after adding "README.md," it appears as a new file.
     
-4. `git commit`: After the changes have been added, we can commit them and include a commit message that explains the modifications in detail. When we commit our changes, a snapshot of all the changes are taken.
+4. `git commit`: After the changes have been added, we can commit them and include a commit message that explains the modifications in detail. When we commit our changes, a snapshot of all the changes is taken.
     
 5. `git branch -M main`: We then change the primary branch name to "main" since it is also the primary branch in the remote repository.
     
@@ -79,7 +79,7 @@ To create a new local repository and connect it to the remote repository that we
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690132790297/2fb6b9fb-d1cb-4e2f-8e60-1455d1a284d6.png align="center")
 
-After pushing the changes refresh github page, now you can see the files that you have pushed get reflected to the remote repostiory.
+After pushing the changes, refresh the GitHub page. Now, you can see the files you have pushed are reflected in the remote repository.
 
 ## **📍** Conclusion:
 
