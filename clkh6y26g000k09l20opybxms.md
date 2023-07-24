@@ -1,5 +1,5 @@
 ---
-title: "Git and GitHub deep dive for DevOps engineers. (Part - 2)"
+title: "👉 Git and GitHub deep dive for DevOps engineers. (Part - 2)"
 seoTitle: "Git and GitHub deep dive for DevOps engineers. (Part - 2)"
 seoDescription: "Master advanced Git & GitHub in DevOps deep dive (Part 2): explore concepts, workflow, revert, reset, rebase for efficient collaboration"
 datePublished: Mon Jul 24 2023 18:18:04 GMT+0000 (Coordinated Universal Time)
