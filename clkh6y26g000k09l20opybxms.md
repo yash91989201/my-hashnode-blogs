@@ -15,6 +15,8 @@ tags: github, git, devops, 90daysofdevops, trainwithshubham
 
 Hey there readers! 😊 Let's keep exploring the amazing world of Git and GitHub together in this blog post, where we'll dive into the Git workflow and discover even more awesome features. If you're just starting with Git and GitHub, no worries! Simply follow this link to catch up: [https://yashraj-jaiswal.hashnode.dev/git-and-github-deep-dive-for-devops-engineers-part-1](https://yashraj-jaiswal.hashnode.dev/git-and-github-deep-dive-for-devops-engineers-part-1)
 
+If you're looking to practice git commands, I've got a fantastic website for you to check out. Give it a try and have fun learning: [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
+
 ## ✔ Git workflow:
 
 After linking your local repository to a remote repository, you are now prepared to begin working on your project in the main branch.
@@ -95,4 +97,4 @@ After updating the commit messages and closing the tab your changes will be merg
 
 ## **📍 Conclusion:**
 
-In conclusion, we have dived into advanced Git concepts such as git workflow, revert, reset, and rebase. However, there are more advanced commands that can be incredibly useful when understood properly. Stay tuned for the next blog, where we will explore additional advanced Git commands.
+In conclusion, we have dived into advanced Git concepts such as git workflow, revert, reset, and rebase. However, there are more advanced commands that can be incredibly useful when understood properly. Don't forget to visit: [https://learngitbranching.js.org/](https://learngitbranching.js.org/) where you can practice git commands. Stay tuned for the next blog, where we will explore additional advanced Git commands.
