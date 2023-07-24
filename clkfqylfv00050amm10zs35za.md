@@ -5,7 +5,7 @@ seoDescription: "Master Git & GitHub for DevOps engineers: dive deep into branch
 datePublished: Sun Jul 23 2023 18:02:49 GMT+0000 (Coordinated Universal Time)
 cuid: clkfqylfv00050amm10zs35za
 slug: git-and-github-deep-dive-for-devops-engineers-part-1
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690135101937/3cb9af4a-6eaf-4d5b-9960-339734e17ab2.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690222737609/18528053-b686-440b-9123-2b8b50b6ac5d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690135330505/6096d893-c667-4941-8d60-7af213c73521.jpeg
 tags: linux, git, devops, 90daysofdevops, trainwithshubham
 
