@@ -23,8 +23,6 @@ Data types are an important concept in programming, as they define the type of d
 
 When categorizing data types in python there are two types:
 
-When categorizing data types in Python, there are two types:
-
 1. **Primitive data type:** A primitive data type is predefined by the programming language. The size and type of variable values are specified.
     
 2. **Non-primitive data type:** The non-primitive data types instead of storing just a single value, store a collection of values in various formats.
@@ -130,7 +128,7 @@ There are mainly 4 non-primitive data types in python:
     
     output:
     {'b', 'a', 'c'}
-    {'b', 'd', 'a', 'c'}    
+    {'b', 'd', 'a', 'c'}
     ```
     
 3. **tuple:** Tuples contain ordered items that are immutable and can have duplicate values. Each item in a tuple is indexed, with the first item having an index of \[0\], the second item an index of \[1\], and so on.
