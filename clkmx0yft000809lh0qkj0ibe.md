@@ -1,5 +1,5 @@
 ---
-title: "⚙️ Operations on python data structures for DevOps engineers (Part - 1)"
+title: "Operations on python data structures for DevOps engineers (Part - 1)"
 seoTitle: "Python Data Structures for DevOps: Part 1"
 seoDescription: "Master Python data structures in DevOps: learn list, set, comprehension, conditionals. Enhance skills, optimize code, boost efficiency"
 datePublished: Fri Jul 28 2023 18:27:00 GMT+0000 (Coordinated Universal Time)
