@@ -1,5 +1,5 @@
 ---
-title: "Let's run a docker container using Dockerfile."
+title: "⚙️ Let's run a docker container using Dockerfile .📜"
 seoTitle: "Running a docker container using Docker file - devops project"
 seoDescription: "Discover Docker containers! Run Python apps, expose ports, create images with Dockerfile. Master containerization now!"
 datePublished: Mon Jul 31 2023 18:32:17 GMT+0000 (Coordinated Universal Time)
@@ -70,7 +70,7 @@ Access the application by using the ec2 ip on your browser `ec2_public_ip:8000` 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690823201506/393c55c3-9e61-47e8-a0a6-b9cd5c2e0d1d.png align="center")
 
-## Now let's containerize this application: 🥳
+## ✔ Now let's containerize this application: 🥳
 
 To run this application, we need to create a Dockerfile containing the necessary steps, which will allow Docker to generate an image from it.
 
@@ -108,7 +108,7 @@ We can also access the application on the browser by using the ec2 public ip:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690826029321/84ed1711-84c1-48e5-807a-763c50f872b3.png align="center")
 
-## **📍** What's next ..... docker-compose
+## **📍** What's next ? 🤔... docker-compose
 
 ![](https://varchitectthoughts.files.wordpress.com/2016/01/625955-whats-next-meme.jpg?w=257 align="center")
 
