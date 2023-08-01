@@ -42,7 +42,7 @@ If you wish to follow along, here are some prerequisites:
     
 2. Install Docker on the EC2 instance.
     
-3. Allow users to run Docker without sudo by using this command: `sudo usermod -aG docker user_name`.
+3. Allow users to run Docker without sudo by using this command: `sudo usermod -aG docker user_name` then reboot the instance by executing `sudo reboot`.
     
 4. Clone [this](https://github.com/shreys7/django-todo.git) GitHub repository, which contains the source code application that we will be using in our project, and review the project documentation.
     
