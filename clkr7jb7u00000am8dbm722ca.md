@@ -42,11 +42,13 @@ If you wish to follow along, here are some prerequisites:
     
 2. Install Docker on the EC2 instance.
     
-3. Clone [this](https://github.com/shreys7/django-todo.git) GitHub repository, which contains the source code application that we will be using in our project, and review the project documentation.
+3. Allow users to run Docker without sudo by using this command: `sudo usermod -aG docker user_name`.
     
-4. Install pip by executing `sudo apt install python3-pip`
+4. Clone [this](https://github.com/shreys7/django-todo.git) GitHub repository, which contains the source code application that we will be using in our project, and review the project documentation.
     
-5. Install Django by executing `pip install Django`
+5. Install pip by executing `sudo apt install python3-pip`
+    
+6. Install Django by executing `pip install Django`
     
 
 After running the project, I realized that some changes need to be made for you to access the running application on the EC2 IP.
