@@ -1,5 +1,5 @@
 ---
-title: "Day - 2 of Bash scripting challenge !  #TWSBashBlazeChallenge 🔥🔥"
+title: "🚀 Day - 2 of Bash scripting challenge !  #TWSBashBlazeChallenge 🔥🔥"
 seoTitle: "Day - 2 of Bash scripting challenge !  #TWSBashBlazeChallenge 🔥🔥"
 seoDescription: "Day - 2 of Bash scripting challenge !  #TWSBashBlazeChallenge 🔥🔥"
 datePublished: Wed Aug 02 2023 04:16:25 GMT+0000 (Coordinated Universal Time)
