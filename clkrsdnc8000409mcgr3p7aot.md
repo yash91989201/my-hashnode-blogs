@@ -1,5 +1,5 @@
 ---
-title: "Day - 1 of Bash scripting challenge ! 🚀 #TWSBashBlazeChallenge"
+title: "🚀 Day - 1 of Bash scripting challenge ! 🚀 #TWSBashBlazeChallenge"
 seoTitle: "Day - 1 of Bash scripting challenge ! 😎🚀 #TWSBashBlazeChallenge"
 seoDescription: "Day 1 Bash Scripting: Master DevOps automation, covering fundamentals, shebang, comments, echo, variables, and wildcards"
 datePublished: Tue Aug 01 2023 04:15:45 GMT+0000 (Coordinated Universal Time)
