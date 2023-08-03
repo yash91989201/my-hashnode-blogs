@@ -138,6 +138,6 @@ Docker and DevOps enable collaboration among various teams throughout a software
 
 ## **📍** Definitely not the end...🤓
 
-This is merely the tip of the iceberg; there is so much more to explore in Docker!! We've got docker volumes, docker networking, docker-compose, and so much more! I can't wait to dive into these topics in future blog posts. In the meantime, keep learning and practicing - it's going to be a thrilling journey! 🚀🎉.
+This is merely the tip of the iceberg; there is so much more to explore in Docker!! We've got docker volumes, docker networking, docker-compose, and so much more! I can't wait to dive into these topics in future blog posts. In the meantime, keep learning and practicing - it's going to be a thrilling journey! 🚀🎉. Here's a [blog](https://spacelift.io/blog/docker-tutorial) worth reading that provides further insights into Docker.
 
-I hope you learned something new today. If you enjoyed reading this blog, please share what you found fascinating about Docker, and any suggestions for improving my blog would be greatly appreciated.
+I hope you learned something new today. If you enjoyed reading this blog, do share what you found fascinating about Docker and any suggestions for improving my blog would be greatly appreciated.
