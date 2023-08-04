@@ -14,7 +14,7 @@ In my [previous blog](https://yashraj-jaiswal.hashnode.dev/getting-started-with-
 
 The containerization process is truly impressive, but what about situations where we have a fairly large application with multiple requirements, such as a database, a Redis cache, a frontend, and a backend? Some of these components may be dependent on one another, so how can use the `docker run` command to manage all these containers effectively?🤔 The answer is ..... we don't😜, we can use a tool called docker-compose.
 
-## What's a Docker compose? 🧐
+## **📍** What's a Docker compose? 🧐
 
 ![A few tricks on how to set up related Docker images with docker-compose -  Event-Driven.io](https://event-driven.io/static/67fd4c42f3de35627317b5d2fe97ce92/00d43/2022-05-11-cover.png align="left")
 
@@ -22,13 +22,13 @@ Docker Compose is a tool that assists in defining multi-container applications, 
 
 To configure these containers, we will use the docker-compose file, which is written in YAML. Within the docker-compose file, we list the components of our application as different services as well as their requirements. With this docker-compose file, we can effortlessly create instances or even tear down our ENTIRE application using just one simple command! Isn't that mind-blowing?! 🤯✨
 
-## But first ... what are yaml files?
+## ✔ But first ... what are YAML files? 📃
 
 YAML stands for "YAML Ain't Markup Language" (a recursive acronym 😅) and is a human-readable data serialization language, similar to XML and JSON. It enables the transfer of data between applications with different data structures and technologies.
 
 Serialization involves translating and converting data into a standard format, which can be stored or transmitted over a network. YAML is popular for writing configuration files in DevOps tools and applications due to its intuitive syntax.
 
-## Writing a docker-compose file. ✍️
+## ✔ Writing a docker-compose file. ✍️
 
 Let us now explore various configuration options in a Docker Compose file.
 
@@ -63,7 +63,7 @@ Let us now explore various configuration options in a Docker Compose file.
     * `unless-stopped`: The policy restarts the container irrespective of the exit code but will stop restarting when the service is stopped or removed.
         
 
-## Let's do a project to better understand docker-compose.🤩
+## ✔ Let's do a project to better understand docker-compose.🤩
 
 If you wish to follow along, here are some prerequisites:
 
@@ -139,6 +139,6 @@ We can also access this application by using ec2 public ip i.e `ec2_public_ip/ap
 
 Oh my goodness, docker-compose is incredible! With just a single command, our entire application was up and running in mere seconds! How fantastic is that?!
 
-## Up Next... ⏭️
+## **📍** Up Next... ⏭️
 
 Hold on to your hats, folks! In my upcoming blog posts, I'll be explaining more docker-compose options! We'll explore custom networks for container isolation, volumes for data storage, and so much more! So, stay tuned and keep learning, because the excitement never stops!
