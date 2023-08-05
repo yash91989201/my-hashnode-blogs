@@ -1,10 +1,10 @@
 ---
-title: "🚀 Day - 2 of Bash scripting challenge !  #TWSBashBlazeChallenge 🔥🔥"
+title: "📂🕵️‍♀️ File exploration and 🔄 backup using a bash script.📋"
 seoTitle: "🚀 Day - 2 of Bash scripting challenge!😎  #TWSBashBlazeChallenge 🔥"
 seoDescription: "Day - 2 of Bash scripting challenge !  #TWSBashBlazeChallenge 🔥🔥"
 datePublished: Wed Aug 02 2023 04:16:25 GMT+0000 (Coordinated Universal Time)
 cuid: clkt7ucoj000b0al8bjsz0u4l
-slug: day-2-of-bash-scripting-challenge-twsbashblazechallenge
+slug: file-exploration-and-backup-using-a-bash-script
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690949675246/10ed5bda-3cce-4385-8db2-56f51a692d55.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690949740207/2e1ce8b4-4750-4892-94af-a02ac7643ca0.png
 tags: linux, bash-scripting, 90daysofdevops, trainwithshubham, twsbashblazechallenge-trainwithshubham
