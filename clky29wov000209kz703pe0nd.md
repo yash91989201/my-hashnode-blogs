@@ -101,6 +101,10 @@ function main(){
 main "$1"
 ```
 
+Upon executing the above script with a sample log file, we receive the following output in a text file:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691242941856/a1579946-7330-4ce3-937c-db28a3a094da.png align="center")
+
 ## **📍** Conclusion:
 
 Oh my gosh! We've just created this incredible bash script that's going to be a game-changer for us every single day! Now we have this super convenient bash script at our fingertips, ready to run and instantly provide us with a summary of our log report! Feel free to customize this fantastic script to perfectly suit your needs! Make it your own and unleash its full potential!
