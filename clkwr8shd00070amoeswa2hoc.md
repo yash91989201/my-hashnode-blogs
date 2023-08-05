@@ -1,11 +1,10 @@
 ---
-title: "🚀 Day 4 of Bash scripting challenge 
-#TWSBashBlazeChallenge🔥🔥"
+title: "🔎 Monitoring system metrics and processes with a bash script. 🧾"
 seoTitle: "🚀 Day 4 of Bash scripting challenge 
 #TWSBashBlazeChallenge🔥🔥"
 datePublished: Fri Aug 04 2023 15:42:50 GMT+0000 (Coordinated Universal Time)
 cuid: clkwr8shd00070amoeswa2hoc
-slug: day-4-of-bash-scripting-challenge-twsbashblazechallenge
+slug: monitoring-system-metrics-and-processes-with-a-bash-script
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691163621080/623a7245-284e-47cf-a0d3-b38f21a5a2ea.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1691163738805/b84d0f98-4e30-4038-8fd3-b7416dc40303.png
 tags: linux, devops, bash-script, 90daysofdevops, twsbashblazechallenge-trainwithshubham
@@ -22,7 +21,7 @@ But wait, there's more! We'll also be monitoring specific processes and giving u
 
 Monitoring finds problems early and helps you use resources better. It makes sure important parts work well. By monitoring services, you can ensure that critical components are up and running as expected.
 
-## ✔ **Part 1: Monitoring processes.**📈
+## ✔ Part 1: Monitoring processes .📈
 
 In this part, we will be creating a script that performs the following tasks:
 
@@ -111,7 +110,7 @@ main
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691162036843/3617ca68-3ce6-4144-b5da-11520a07fd9f.png align="center")
 
-## ✔ **Part 2: Monitoring metrics and specific processes.**📋
+## ✔ Part 2: Monitoring metrics and specific processes.📋
 
 In this part, we will create a script to perform the following tasks:
 
