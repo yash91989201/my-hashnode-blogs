@@ -80,30 +80,70 @@ total_bill=$(calculate_total_bill)
 
 1. **populating the menu:**
     
-    Our restaurant's menu is stored in a separate text file, this way we can easily edit our restaurant's menu. Since it is in a separate file we first need to load the file contents into a workable data structure. To do this I have created the populate\_menu function that takes in the contents of the menu.txt file and add the contents into an associative array making it easy to work with the menu data.
-    
+    * The restaurant's menu is stored in a separate text file to allow easy editing without anyone interacting with the code logic this will make our script more modular.
+        
+    * The goal is to load the contents of the menu.txt file into a structured data format for manipulation.
+        
+    * To achieve this, we will use a function called `populate_menu`.
+        
+    * The `populate_menu` function takes the content of the menu.txt file as input.
+        
+    * Inside the function, the content is added to an associative array.
+        
+    * This approach enhances the manageability of menu data, allowing efficient interactions with the menu contents.
+        
 2. **displaying the menu:**
     
-    In the display\_menu function, we loop through the menu\_items and menu\_item\_value to display the menu to the user.
-    
+    * Now we need to display the menu to the user.
+        
+    * This is accomplished through the `display_menu` function.
+        
+    * Inside the function, a loop iterates through `menu_items` and `menu_item_value`.
+        
+    * During each iteration, the menu items and their corresponding values are presented to the user.
+        
 3. **take order:**
     
-    In the take\_order function, we show the menu item to the user and ask them to enter the required quantity. We check if their input is a number or not. If it's not a number, we show an appropriate error message and ask again for input. If they press enter without typing anything, we go to the next item. If they enter a number, we add it to their order.
-    
+    * Now to take order from the user we create a function called `take_order`, this function manages the process of placing an order.
+        
+    * During this process, the user is presented with an individual menu item and prompted to enter the desired quantity for that item.
+        
+    * The function performs validation by checking if the user's input is a numeric value.
+        
+    * If the input is not a number, an error message is displayed, and the user is prompted again for input.
+        
+    * If the user presses enter without entering any value, the function proceeds to the next item.
+        
+    * When the user enters a valid number, the quantity is added to their order.
+        
 4. **calculate the total bill:**
     
-    The calculate\_total\_bill function calculates the user's order and computes their total bill.
-    
+    * To calculate the bill we create a `calculate_total_bill` function.
+        
+    * The function performs calculations based on the items and quantities in the user's order that is stored in the previously defined associative arrays.
+        
 5. **main function:**
     
-    In the main function, we combine all the features of the ordering system and initiate the ordering process. First, we call the `display_menu` function, followed by the `take_order` function. Lastly, we call the `calculate_total_bill` function and display a final message.
-    
+    * The `main` function serves as the central point where all components of the ordering system are integrated and the ordering process is initiated.
+        
+    * The execution starts by calling the `display_menu` function to present the menu items and their values to the user.
+        
+    * Subsequently, the `take_order` function is called, allowing the user to input their desired order quantities.
+        
+    * Following that, the `calculate_total_bill` function is invoked to compute the total cost of the user's order.
+        
+    * Finally, a concluding message is displayed to provide the user with the total bill amount.
+        
 6. **putting it all together:**
     
-    After defining the main function, we first call the `populate_menu` function to fill the array with values from the menu.txt file. Then, we call the menu function that executes all the functionalities of our restaurant ordering system.
-    
+    * Our restaurant's ordering system operations are coordinated after defining the `main` function.
+        
+    * The initial step involves populating an array with values from the `menu.txt` file. This is achieved by calling the `populate_menu` function.
+        
+    * After the array is populated, the `menu` function is called. This function integrates and executes all the functionalities of the restaurant ordering system, offering a comprehensive user experience.
+        
 
-## ✔ Fixed script:
+## ✔ Final script:
 
 After fixing the script and implementing all the above-mentioned functionalities, here's the final script.
 
