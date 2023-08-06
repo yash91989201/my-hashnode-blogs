@@ -79,28 +79,59 @@ Our script revolves around a mysterious function aptly named `mysterious_functio
 
 1. **The Initial Transformation:**
     
-    In this part, we see an interesting change using the `tr` command. It looks like letters are being changed especially. All small and big letters are switched with letters that are 13 spots away in the alphabet, making a basic type of ROT13 cipher code. The code piece tr `'A-Za-z' 'N-ZA-Mn-za-m'` does this amazing change!
-    
-    It's a special case of the Caesar cipher, where the shift value is fixed at 13. The beauty of ROT13 is that it's its inverse: applying ROT13 twice to any text will restore the original text. This property makes it a simple and reversible form of text obfuscation.
+    * Firstly the `tr` command is used to perform a specific transformation on letters.
+        
+    * This transformation involves shifting letters in the alphabet by 13 positions, creating a ROT13 cipher code.
+        
+    * The command `tr 'A-Za-z' 'N-ZA-Mn-za-m'` is used to achieve this transformation.
+        
+    * ROT13 is a special case of the Caesar cipher with a fixed shift value of 13.
+        
+    * One key feature of ROT13 is that applying it twice to any text will revert the text back to its original form.
+        
+    * This property of ROT13 makes it a simple and reversible method for obfuscating text.
+        
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691247064767/87a1b328-2b9b-4ba4-9892-55b32d3fbe77.png?auto=compress,format&format=webp align="left")
     
 2. **The Reversal Revelation:**
     
-    The next revelation involves reversing the result of the previous step using the `rev` command. This flips the characters, turning our text into a mirror image of itself. Quite the twist, isn't it?
-    
+    * Next the `rev` command is used to reverse the result of a previous step.
+        
+    * This reversal operation flips the characters in the text, creating a mirror image of the original text.
+        
+    * The process introduces an unexpected and interesting twist to the text transformation.
+        
 3. **Random Loopiness:**
     
-    As our adventure goes on, a random number between 1 and 10 is created using the `$RANDOM` variable. This number leads us through an unpredictable loop. The loop happens as many times as the random number, doing a series of changes each time. In the loop, our text is flipped back and forth and then put through the same Caesar cipher encryption we saw before.
-    
+    * A random number between 1 and 10 is generated using the `$RANDOM` variable.
+        
+    * This random number determines the iteration count for a loop, introducing an unpredictable element.
+        
+    * The loop iterates the number of times indicated by the random number.
+        
+    * During each iteration, a series of changes are applied to the text.
+        
+    * The text undergoes flipping back and forth, followed by the same Caesar cipher encryption seen earlier.
+        
 4. **A Curious Loop Dance:**
     
-    The loop goes through a few times, changing the text in interesting ways. It flips the text, scrambles it with a code, and switches parts around, making it more and more confusing.
-    
+    * The loop iterates multiple times, inducing changes in the text in intriguing manners.
+        
+    * During each iteration, the text is subjected to various transformations.
+        
+    * These transformations include flipping the text, mixing it with a code, and rearranging parts of the text.
+        
+    * The cumulative effect of these changes is to progressively increase the text's complexity and confusion.
+        
 5. **The Grand Finale: Clean Up!**
     
-    Like all great adventures, our script finishes by cleaning. It removes temporary files with the `rm` command, leaving no sign of what happened.
-    
+    * The script concludes, adhering to the pattern of many great adventures.
+        
+    * The `rm` command is used to remove temporary files.
+        
+    * This cleanup process ensures that there are no traces left behind, effectively erasing any evidence of the preceding actions.
+        
 
 After analyzing the script here is the script presented with appropriate comments to understand what's going on.
 
