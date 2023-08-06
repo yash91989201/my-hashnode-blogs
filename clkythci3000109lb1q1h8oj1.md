@@ -1,10 +1,10 @@
 ---
 title: "Analyzing a mysterious bash script. 🕵️🔮"
-seoTitle: "🚀 Day 5 of  #TWSBashBlazeChallenge🔥 Part-1 Analyzing a bash script"
+seoTitle: "🚀 Day 6 of  #TWSBashBlazeChallenge🔥 Part-1 Analyzing a bash script"
 datePublished: Sun Aug 06 2023 02:21:00 GMT+0000 (Coordinated Universal Time)
 cuid: clkythci3000109lb1q1h8oj1
 slug: analyzing-a-mysterious-bash-script
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691288292901/44f5c53d-d73d-40df-a7d9-bc5363d186e5.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691289511509/658a4d9d-d8ef-42dd-bbd0-03a3b09a0c42.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1691288400295/543c2414-840d-4adb-8e4f-4b4241a88129.png
 tags: linux, devops, 90daysofdevops, trainwithshubham, bashblaze-challange
 
