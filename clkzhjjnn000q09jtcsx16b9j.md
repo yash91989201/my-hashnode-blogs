@@ -46,7 +46,7 @@ In the third and final part of Day 6 in the #TWSBashBlaze challenge, we will be 
     * Also, if the file is not found during the search, an appropriate error message is displayed to indicate that the file could not be located.
         
 
-## Final Script:
+## ✔ Final Script:
 
 ```bash
 #!/bin/bash
