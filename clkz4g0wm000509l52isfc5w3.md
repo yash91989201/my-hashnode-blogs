@@ -239,7 +239,7 @@ populate_menu
 main
 ```
 
-### Sample menu file:
+### ✔ Sample menu file:
 
 ```bash
 Burger, 120
@@ -255,7 +255,7 @@ Ice Cream, 120
 
 Here's the final script and a sample menu file for you to enjoy! Run the command and have fun ordering from our "Bash Blaze Restaurant" 😊🍔🍕🥗🥤
 
-### Output after running the fixed script:
+### ✔ Output after running the fixed script:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691301923486/19f1d79e-010c-4bea-a815-e15320eb96d2.png align="center")
 
