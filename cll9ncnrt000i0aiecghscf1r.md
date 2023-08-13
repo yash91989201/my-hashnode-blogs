@@ -37,11 +37,13 @@ If you would like to follow along with this project, ensure that you have the fo
 
 1. EC2 instance with Jenkins and Docker installed.
     
-2. ubuntu user must be added to the Docker group.
+2. 8000 port allowed through security group inbound rule.
     
-3. Fork this [GitHub project](https://github.com/LondheShubham153/node-todo-cicd) into your account.
+3. ubuntu user must be added to the Docker group.
     
-4. Familiarity with configuring Jenkins freestyle projects.
+4. Fork this [GitHub project](https://github.com/LondheShubham153/node-todo-cicd) into your account.
+    
+5. Familiarity with configuring Jenkins freestyle projects.
     
 
 ### 🔸Step 1: Creating a freestyle project.
@@ -89,7 +91,7 @@ Now, we will provide the link to our GitHub repository and the branch from which
 
 ### 🔸 Step 4: Adding a build step.
 
-Now in the build step section add the command that will build your project. In our case we can add a single docker compose command to spin up our project within a container i.e. `docker compose up -d`
+Now in the build step section add the command that will build your project. In our case, we can add a single docker compose command to spin up our project within a container i.e. `docker compose up -d`
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691936044041/a338b34a-4e4e-409a-b020-3fa8bc718b9c.png align="center")
 
@@ -108,7 +110,7 @@ Now for the interesting part, triggering a build with a push event on the master
 
 ### 🔸 Step 6: Let's see the deployed application.
 
-Go to the ec2 instance's ip address and add the port 8000 to see the application running.
+Go to the ec2 instance's ip address with port 8000 to see the application running.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691938865515/059a5a43-aad3-4fe2-8d0a-d26183bcf61c.png align="center")
 
