@@ -10,11 +10,11 @@ tags: devops, jenkins, 90daysofdevops, trainwithshubham, jenkins-interview-quest
 
 ---
 
-## Introduction:
+## 📍 Introduction:
 
 After writing multiple blog posts on Jenkins, pipeline projects, and integrating pipelines with Docker steps, today's blog will focus on Jenkins-specific questions related to Docker that can be used during a DevOps Engineer interview.
 
-## Let's get started with the questions.
+## ✔️ Let's get started with the questions.
 
 ### What’s the difference between continuous integration, continuous delivery, and continuous deployment?
 
@@ -24,7 +24,7 @@ After writing multiple blog posts on Jenkins, pipeline projects, and integrating
 
 **Continuous deployment** advances the concept of continuous delivery by automatically deploying the code to production once all stages of the pipeline have been completed.
 
-### Benefits of CI/CD.
+### 🔸 Benefits of CI/CD.
 
 Some of the most prominent benefits of implementing a ci/cd pipeline for a project are as follows:
 
@@ -39,15 +39,15 @@ Some of the most prominent benefits of implementing a ci/cd pipeline for a proje
 5. Greater flexibility.
     
 
-### What is meant by CI-CD?
+### 🔸 What is meant by CI-CD?
 
 CI/CD stands for Continuous Integration and Continuous Deployment. It is a software development practice that involves automatically building, testing, and deploying code changes to production as soon as they are committed to version control. CI/CD aims to identify and resolve errors as swiftly as possible, enabling quicker and more dependable releases.
 
-### What is Jenkins Pipeline?
+### 🔸 What is Jenkins Pipeline?
 
 Jenkins Pipeline is a set of tools in Jenkins that helps create, build, test, and deploy code changes in a continuous delivery process using a Jenkinsfile stored in the code's source control. It automates and streamlines the build and release process, offering features like running tasks at the same time, managing different paths, and handling errors.
 
-### How do you configure the job in Jenkins?
+### 🔸 How do you configure the job in Jenkins?
 
 Here are the steps to configure a job in jenkins:
 
@@ -57,37 +57,37 @@ Step 2: On the next page give a name for the job, select the job type and then p
 
 Step 3: Set the required options on the given fields and then save the pipeline.
 
-### Where do you find errors in Jenkins?
+### 🔸 Where do you find errors in Jenkins?
 
 When we build jobs we can find the errors in the console output, which we can access from the build history section on the job page.
 
-### In Jenkins how can you find log files?
+### 🔸 In Jenkins how can you find log files?
 
 We can find the log file here &gt; /var/log/jenkins/jenkins.logs
 
-### How to create a continuous deployment in Jenkins?
+### 🔸 How to create a continuous deployment in Jenkins?
 
 We can create a continuous deployment in jenkins by automating the process from pulling the code from Git Hub to deploying the project. This can be achieved by using GitHub webhooks, it works in the following way code is committed to the code management repository &gt; code is automatically picked up by jenkins &gt; code is built &gt; executed &gt; perform testing &gt; if testing is success then start the deployment process on the production server.
 
-### How to build a job in Jenkins?
+### 🔸 How to build a job in Jenkins?
 
 To build a job in jenkins we just use the Build Now button on the ui this starts the execution of a job.
 
-### Why do we use a pipeline in Jenkins?
+### 🔸 Why do we use a pipeline in Jenkins?
 
 Pipeline in Jenkins is a very powerful and flexible way to automate our continuous integration and deployment workflow. Within a pipeline, we can specify different steps to fulfill our workflow requirements.
 
 Separating our tasks into different steps gives us a clear and concise overview of a pipeline. It is advantageous in the sense that if a specific stage in a pipeline fails, we can just resume that step directly rather than redoing the processes altogether, which is usually the case in a freestyle project.
 
-### Is Only Jenkins enough for automation?
+### 🔸 Is Only Jenkins enough for automation?
 
 Jenkins is a powerful tool for automation, but it may not be sufficient for all automation needs. The best approach is to evaluate your automation requirements and choose the tools and technologies that best meet your needs.
 
-### How will you handle secrets?
+### 🔸 How will you handle secrets?
 
 For sensitive data that should not be exposed, we can store that secret in Jenkins Credentials Manager. We can then access the secret within our pipeline by using the withCredentials() step, which injects the secret into our pipeline during execution and only where it is required.
 
-### Explain diff stages in CI-CD setup.
+### 🔸 Explain diff stages in CI-CD setup.
 
 The different stages in a ci/cd setup may vary differently according to the project requirement, but these steps are commonly used in every project.
 
@@ -102,10 +102,10 @@ The different stages in a ci/cd setup may vary differently according to the proj
 5. Deployment: After completing all the steps and thoroughly testing the code, the project is ready for deployment on production servers. At this stage, the project is deployed and made accessible to users.
     
 
-### Name some of the plugins in Jenkin.
+### 🔸 Name some of the plugins in Jenkin.
 
 Some of the most commonly used Jenkins plugins include Docker, Git, maven, blue ocean, ant, gradle, credentials and SonarQube. These plugins are essential in a Jenkins pipeline and are widely utilized.
 
-## Conclusion:
+## 📍 Conclusion:
 
 I hope you learned something new from today's blog. If you have any significant questions related to Jenkins that might be helpful for a DevOps interview, please feel free to mention them in the comments section. This will greatly benefit everyone.
