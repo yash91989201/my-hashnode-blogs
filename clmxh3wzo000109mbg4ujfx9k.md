@@ -10,11 +10,11 @@ tags: devops, terraform, 90daysofdevops, trainwithshubham, terraweekchallenge
 
 ---
 
-## Introduction
+## 📍 Introduction
 
 Up until now, we have been using multiple files for our Terraform configuration. Today, we will explore Terraform modules, which allow us to create reusable Terraform files that can be utilized at different stages of our software development process.
 
-## What are modules in terraform?
+## ✔️ What are modules in terraform?
 
 Modules in Terraform enable us to create reusable infrastructure configurations that can be adapted for various purposes by supplying different variables.
 
@@ -22,7 +22,7 @@ Modules in Terraform enable us to create reusable infrastructure configurations 
 
 A Terraform module allows for the creation of a logical abstraction on top of a set of resources. In other words, a module lets you group resources and reuse this group later, potentially multiple times.
 
-## Benefits of using modules in terraform
+## ✔️ Benefits of using modules in terraform
 
 Modules are a fundamental idea in Terraform because they offer the following advantages:
 
@@ -43,7 +43,7 @@ Modules are a fundamental idea in Terraform because they offer the following adv
 8. **Documentation**: Clear documentation that comes with well-designed modules makes it simpler for users to grasp how to use them and what inputs they need.
     
 
-## Creating a module
+## ✔️ Creating a module
 
 After gaining a solid understanding of modules, let's dive into creating our own Terraform module named demo-app.
 
@@ -51,7 +51,7 @@ This module will provision infrastructure components such as EC2 instances, S3, 
 
 When creating a module, we need to follow a specific folder structure. All the modules go within a folder named `modules`. So create a modules folder and within it create a folder named `demo-app`. Now you are ready to create a module in the `demo-app` folder.
 
-### Step 1: Creating variable file for module
+### 🔸 Step 1: Creating variable file for module
 
 When creating a module, it is necessary to define variables for all the attributes in various resources as empty. This allows us to supply values when utilizing the module in different contexts.
 
@@ -87,7 +87,7 @@ variable "env_name" {
 }
 ```
 
-### Step 2: Creating terraform resources for different resources.
+### 🔸 Step 2: Creating terraform resources for different resources.
 
 In this section, we will create various resources within separate files for each resource type. We will utilize variables to assign dynamic values to our resources.
 
@@ -162,7 +162,7 @@ In this section, we will create various resources within separate files for each
 
 After we have created a module we must execute terraform init so that our module is registered in terraform.
 
-### Step 3 : Using the module in main file
+### 🔸 Step 3 : Using the module in main file
 
 After we have created and registered the module we can use it in our main terraform file.
 
@@ -203,7 +203,7 @@ module "prod_demo_app" {
 }
 ```
 
-### Step 4: Provisioning infrastructure using module.
+### 🔸 Step 4: Provisioning infrastructure using module.
 
 Now that we have created modules we can use them to create all stages at once or create one stage at a time.
 
@@ -212,6 +212,6 @@ Now that we have created modules we can use them to create all stages at once or
 2. provision single module: We can also provide the target flag to specify which module to execute `terraform apply -target=module.prod-demo-app`
     
 
-## Conclusion
+## 📍 Conclusion
 
 In conclusion, Terraform modules provide a powerful way to achieve code reusability, abstraction, and separation of concerns for managing infrastructure. Taking advantage of modules helps simplify infrastructure management and promotes consistency across different stages of the software development lifecycle.
