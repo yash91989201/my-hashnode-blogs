@@ -121,9 +121,7 @@ By following these practices, you can deploy a highly available application that
 
 ### 🔸 What is a namespace in Kubernetes? Which namespace does any pod take if we don't specify any namespace?
 
-In Kubernetes, a namespace is a logical, virtual cluster within a physical Kubernetes cluster. It provides a way to partition resources, applications, and objects within the cluster, helping to organize and isolate workloads.
-
-If you don't specify a namespace when creating a pod, it will be created in the default namespace. The default namespace is present in every Kubernetes cluster, and if you omit the namespace field in your pod specification, Kubernetes assumes you want the pod to belong to the default namespace.
+A namespace in Kubernetes is a logical partition within a physical cluster that organizes and isolates resources, applications, and objects; if not specified, a pod is created in the default namespace.
 
 ### 🔸 How does ingress help in Kubernetes?
 
@@ -146,9 +144,9 @@ In essence, Ingress simplifies the management of external access to services, es
 
 Kubernetes provides various types of services to expose applications within the cluster:
 
-* **ClusterIP:** This type of service exposes a set of pods within the cluster on a stable internal IP. It allows other pods within the cluster to access the service using this IP. ClusterIP services are typically used for internal communication between components of an application.
+* **ClusterIP:** This service type exposes a group of pods within the cluster through a stable internal IP. It enables other pods within the cluster to access the service using this IP. ClusterIP services are commonly utilized for internal communication between application components.
     
-* **NodePort:** NodePort services expose a service on a static port on each node's IP address. This means the service is accessible externally on each node's IP at the specified port. NodePort services are often used for scenarios where you need external access to a service, but they may not be suitable for production use without additional configuration.
+* **NodePort:** NodePort services expose a service on a fixed port on each node's IP address. This implies that the service can be accessed externally on each node's IP at the designated port. NodePort services are frequently employed in situations where external access to a service is required, but they might not be appropriate for production use without further configuration.
     
 * **LoadBalancer:** LoadBalancer services integrate with cloud provider load balancers to distribute external traffic to the service. They are suitable for exposing services to the internet or external networks. The cloud provider provisions and configures the load balancer, distributing traffic to the service's pods.
     
