@@ -52,7 +52,7 @@ Follow the given steps to install jenkins on an ec2 instance using User Data.
     ```
     
 
-### 🔸 Task 2: Create 3 IAM roles
+### 🔸 Task 2: Creating IAM roles
 
 Create three Roles named: DevOps-User, Test-User, and Admin. These three roles would have the following permissions.
 
