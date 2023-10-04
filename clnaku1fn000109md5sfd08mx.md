@@ -77,41 +77,32 @@ Follow the below-given steps to create a launch template:
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696350173016/6443fb5b-25c2-429f-b67d-0b12c875ce18.png align="center")
     
-6. Then paste the following script in User Data section within the advanced details section.
+6. Then paste the following script in the User Data section within the advanced details section.
     
     ```bash
     #!/bin/bash
     
     # Update the package list
     sudo apt update
-    
     # Install Apache
     sudo apt install -y apache2
-    
     # Enable Apache to start on boot
     sudo systemctl enable apache2
-    
     # Start the Apache service
     sudo systemctl start apache2
-    
     # Clone the GitHub repository
     git clone https://github.com/yash91989201/simple-website.git
-    
     # Copy the HTML file to the Apache web root directory
     sudo cp simple-website/index.html /var/www/html/
     
-    
     # Restart Apache to apply changes
     sudo systemctl restart apache2
-    
     # Clean up - remove the cloned repository
     rm -rf simple-website
-    
-    echo "Apache web server is installed and your HTML page is now being served."
     ```
     
-
-You can now utilize this launch template to create multiple EC2 instances and configure auto-scaling groups as well.
+7. You can now utilize this launch template to create multiple EC2 instances and configure auto-scaling groups as well.
+    
 
 To use a launch template to create an EC2 instance, follow the steps provided.
 
