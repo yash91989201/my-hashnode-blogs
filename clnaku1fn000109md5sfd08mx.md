@@ -79,7 +79,7 @@ Follow the below-given steps to create a launch template:
     
 6. Then paste the following script in User Data section within the advanced details section.
     
-    ```yaml
+    ```bash
     #!/bin/bash
     
     # Update the package list
