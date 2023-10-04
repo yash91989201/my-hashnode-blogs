@@ -12,6 +12,8 @@ tags: aws, devops, iam, 90daysofdevops, trainwithshubham
 
 ## 📍 Introduction
 
+Hey readers! Today in the [AWS Cloud DevOps ☁](https://yashraj-jaiswal.hashnode.dev/series/aws-cloud-devops) series, we will be creating ec2 instances by providing a bash script that can install the required software beforehand.
+
 ## ✔️ AWS User Data
 
 User Data in Amazon EC2 is a potent feature that enables you to automate the configuration of your instances upon launch. This functionality offers a convenient method for performing routine setup tasks, installing software, and executing scripts, thereby streamlining the process of getting your instances operational with the desired configurations.
