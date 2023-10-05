@@ -50,15 +50,15 @@ Follow the steps below to create an IAM user for CLI access:
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696518009330/8e809e71-522c-4d36-91e9-b912cca01882.png align="center")
     
-    Now for the next section provide a description and Create access key.
+    Now for the next section provide a description and click on `Create access key`.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696518114458/9e094e3b-a99b-4d70-8e05-1047cea378c6.png align="center")
     
-6. On the next page, you will see the access key and secret access save them by downloading as a .csv file.
+6. On the next page, you will see the access key and secret access save them by downloading them as a .csv file.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696518223093/d6438745-ea46-4826-93c2-1c3c0d558e93.png align="center")
     
-7. Now we can use these credentials to make changes in our aws account from the terminal itself.
+7. Now we can use these credentials to make changes in our AWS account from the terminal itself.
     
 
 ### 🔸 Task 2: Configure AWS CLI for programmatic access.
