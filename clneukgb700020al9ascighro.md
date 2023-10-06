@@ -65,7 +65,7 @@ aws s3 sync local-folder s3://bucket-name
 # list all the objects in a s3 bucket 
 aws s3 ls s3://bucket-name 
 # remote a single object from s3 bucket
-aws s3 rm s3://bucket-name/file.txt 
+aws s3 rm s3://bucket-name/file.txt
 ```
 
 ### 🔸 Task 1: Creating and deleting the s3 bucket with AWS CLI
@@ -96,4 +96,4 @@ Using the AWS CLI, we can manage the contents of an S3 bucket, as well as create
 
 In today's blog, we learned how to programmatically share resources between a local machine and an S3 bucket. In the upcoming blog, we will explore RDS, a Managed Relational Database Service by AWS.
 
-If you found this blog valuable, please consider liking and sharing the article.
+If you learnt something new today, please consider liking and sharing the blog.
