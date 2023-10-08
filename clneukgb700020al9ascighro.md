@@ -12,6 +12,8 @@ tags: devops, aws-cli, 90daysofdevops, trainwithshubham, s3-bucket
 
 ## 📍 Introduction
 
+Hello readers! In the [previous blog post](https://yashraj-jaiswal.hashnode.dev/aws-cli-and-iam-programmatic-access-a-comprehensive-guide) of our [AWS Cloud DevOps ☁](https://yashraj-jaiswal.hashnode.dev/aws-cli-and-iam-programmatic-access-a-comprehensive-guide) series, we learned about AWS CLI access and set it up using IAM credentials. Now, let's explore how we can use AWS CLI access to interact with resources in our account.
+
 ## ✔️ S3
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance. It caters to users of all sizes and industries, allowing them to store and protect any amount of data for various use cases. These include data lakes, websites, mobile applications, backup and restoration, archiving, enterprise applications, IoT devices, and big data analytics.
