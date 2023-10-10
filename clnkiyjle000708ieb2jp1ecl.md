@@ -33,7 +33,7 @@ For the hands-on project, we will be building this.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696954233599/4c631b6d-a246-476f-bd39-a1f933a5cc6b.png align="center")
 
-### 🔸 Task 1: Create a cloud watch alarm to send you an email when your bill reaches above $2
+### 🔸 Task 1: Create a cloud watch alarm to send you an email when your bill reaches above a certain limit.
 
 Before starting first we need to change some settings in our AWS account. Go to Billing Dashboard &gt; Billing Preferences &gt; Check "Receive cloud watch billing alerts" in the Alert Preferences and Update it.
 
