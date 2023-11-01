@@ -47,7 +47,7 @@ First, we will set up an s3 bucket to store our react website code. Follow the b
     
 6. Now go to the bottom and click on Create Bucket.
     
-7. After the bucket has been created go to its properties scroll to the bottom and edit `Static Website Hosting` settings. Also for the index page enter index.html
+7. After the bucket has been created go to its properties scroll to the bottom and edit `Static Website Hosting` Settings. Also for the index page enter index.html
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698808011410/6061bf13-c4bf-4163-80a9-183063feacb9.png align="center")
     
@@ -64,7 +64,7 @@ Follow the below steps to set up the cloud front so that we can serve our websit
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698809284923/e8e79c93-0fdb-44c5-9c91-a0d3a00305fa.png align="center")
     
-3. Select Legacy Access Identities for the Origin access and click on Create new OAI if you don't have one already. Then also select "Yes, update the bucket policy" , this will update the bucket policy to work with cloud front.
+3. Select Legacy Access Identities for the Origin access and click on Create new OAI if you don't have one already. Then also select "Yes, update the bucket policy", this will update the bucket policy to work with the cloud front.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698809374068/f7a1c932-50ca-43aa-add9-b7bfb1c3555b.png align="center")
     
@@ -87,7 +87,7 @@ Follow the below steps to set up the cloud front so that we can serve our websit
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698810018148/50571801-80be-4001-aff1-881af7b351d6.png align="center")
     
 
-### 🔸 Step 4: Automating website deployment
+### 🔸 Task 4: Automating website deployment
 
 Now that our distribution is created we can create a CI/CD pipeline to automatically deploy our website code to the S3 bucket.
 
@@ -143,7 +143,7 @@ Second, we need to create a pipeline to look for changes and start the build whe
 7. After making changes to your repository, the pipeline will automatically run and push the updated code to the S3 bucket.
     
 
-### 🔸 Step 5: Accessing website
+### 🔸 Task 5: Accessing website
 
 Now you can use the `Domain Name` is shown in the cloud front dashboard.
 
